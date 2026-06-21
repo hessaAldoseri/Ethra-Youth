@@ -1,0 +1,19 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="#009ca6" opacity="0.1"/>
+  <circle cx="700" cy="500" r="120" fill="#009ca6" opacity="0.1"/>
+  <circle cx="650" cy="150" r="60" fill="#e9c46a" opacity="0.1"/>
+
+  <!-- Main content box -->
+  <rect x="200" y="150" width="400" height="300" rx="20" fill="white" stroke="#e0e0e0" stroke-width="2"/>
+
+  <!-- Star decoration -->
+  <polygon points="400,200 415,250 465,250 425,280 440,330 400,300 360,330 375,280 335,250 385,250" fill="#009ca6" opacity="0.8"/>
+
+  <!-- Text placeholder -->
+  <text x="400" y="380" text-anchor="middle" font-family="Cairo, Arial, sans-serif" font-size="18" fill="#666666">صورة الجائزة</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Cairo, Arial, sans-serif" font-size="14" fill="#999999">سيظهر هنا صورتك الشخصية</text>
+</svg>

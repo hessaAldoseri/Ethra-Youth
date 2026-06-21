@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>النتيجة - إثراء البراعم</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="result-page">
+
+    <!-- الهيدر العلوي الثابت -->
+    <header class="header">
+        <div class="header-container">
+            <!-- اللوقو في أقصى اليمين -->
+            <div class="logo-section">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">
+                        <svg width="50" height="60" viewBox="0 0 50 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Shield shape -->
+                            <path d="M25 2L45 12V35C45 47 35 55 25 60C15 55 5 47 5 35V12L25 2Z" fill="white" stroke="#333333" stroke-width="2"/>
+                            <!-- Serrated line -->
+                            <path d="M8 28L15 22L22 28L29 22L36 28L42 22V35C42 44 35 50 25 54C15 50 8 44 8 35V28Z" fill="#333333"/>
+                            <!-- Triangle mosaic - top row -->
+                            <polygon points="12,15 17,20 12,20" fill="#E63946"/>
+                            <polygon points="19,12 24,17 19,17" fill="#F4A261"/>
+                            <polygon points="26,10 31,15 26,15" fill="#E9C46A"/>
+                            <polygon points="33,12 38,17 33,17" fill="#2A9D8F"/>
+                            <polygon points="38,18 42,22 38,22" fill="#264653"/>
+                            <!-- Triangle mosaic - middle row -->
+                            <polygon points="10,22 15,27 10,27" fill="#E76F51"/>
+                            <polygon points="17,20 22,25 17,25" fill="#F4A261"/>
+                            <polygon points="24,18 29,23 24,23" fill="#E9C46A"/>
+                            <polygon points="31,20 36,25 31,25" fill="#2A9D8F"/>
+                            <polygon points="38,23 42,27 38,27" fill="#264653"/>
+                            <!-- Triangle mosaic - bottom row -->
+                            <polygon points="15,27 20,32 15,32" fill="#E63946"/>
+                            <polygon points="22,25 27,30 22,30" fill="#F4A261"/>
+                            <polygon points="29,27 34,32 29,32" fill="#E9C46A"/>
+                            <polygon points="36,28 40,32 36,32" fill="#2A9D8F"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-line1">مؤسسة</span>
+                        <span class="logo-line2">المبرّة الخليفية</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- روابط التنقل في الوسط -->
+            <nav class="nav-links">
+                <a href="#" class="nav-link">عن مؤسسة المبرة الخليفية</a>
+                <a href="#" class="nav-link">البرامج</a>
+                <a href="#" class="nav-link">بصمتنا</a>
+                <a href="#" class="nav-link">الاستدامة</a>
+                <a href="#" class="nav-link">المركز الإعلامي</a>
+            </nav>
+
+            <!-- أيقونات البحث وال菜单 في أقصى اليسار -->
+            <div class="header-icons">
+                <button class="icon-btn search-btn" aria-label="بحث">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11" cy="11" r="7" stroke="#333333" stroke-width="2"/>
+                        <path d="M16 16L20 20" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="icon-btn menu-btn" aria-label="القائمة">
+                    <span class="menu-text">MENU</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6H20M4 12H20M4 18H20" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- الصفحة الثانية: النتيجة -->
+    <main class="main-content">
+        <section class="page page-2-full">
+            <div class="result-container">
+                <img
+                    src="website2.photo.png"
+                    alt="نتيجة المشاركة"
+                    class="result-image-large"
+                    id="resultImage"
+                >
+                <a href="index.html" class="back-btn-link hidden" id="backBtn">رجوع</a>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
